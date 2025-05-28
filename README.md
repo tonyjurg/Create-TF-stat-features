@@ -2,9 +2,12 @@
 
 # Create TF statistic features
 
-This repository contains the Jupyter Notebook used to create a new Text-Fabric feature:
+This repository contains the Jupyter Notebook used to create the following Text-Fabric features:
 
   - [num_words](https://tonyjurg.github.io/N1904addons/features/num_words.html): Number of word nodes below this node.
+  - [lemma_ttr](https://tonyjurg.github.io/N1904addons/features/lemma_ttr.html): Type to Token Ratio based on lemma for all word nodes under this node.
+  - [morph_ttr](https://tonyjurg.github.io/N1904addons/features/morph_ttr.html): Type to Token Ratio based on morph-tag for all word nodes under this node.
+  - [text_ttr](https://tonyjurg.github.io/N1904addons/features/text_ttr.html): Type to Token Ratio based on wordform for all word nodes under this node.
 
 More statistic features may be added in the future.
    
